@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/223da44b05.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="index.js"></script>
+    <div id="header">
+        <div class="container">
+            <nav>
+          <img src="" alt="">
+                <ul id="sidemenu">
+                  <li><a href="#header">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#portfolio">Projects</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <i class="fa-solid fa-xmark menu" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars menu" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-inner">
+                <div class="header-text">
+                    <p>Front-End Developer</p>
+                    <h1>Hi, I'm <span>Ajay</span><br> Rawat from India</h1>
+                    
+                </div>
+                <div class="animation">
+                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets8.lottiefiles.com/packages/lf20_pwohahvd.json"  background="transparent"  speed="1"  style="width: 90%; height: 90%;"  loop  autoplay></lottie-player>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="DSC09849.JPG" alt="">
+                </div>
+                 <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Committed and goal-oriented computer science
+                        engineering student, eager to apply in-depth knowledge
+                        and skills in the IT industry. Hard working person with
+                        good decision-making skills. Hoping to work and learn in
+                        real professional environment.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('certficates')">Certification</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>JAVA, C++, HTML, JavaScript, CSS</li>
+                            <li><span>Tools</span><br>VS Code, Github, Git</li>
+                            <li><span>Framework</span><br>React</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certficates">
+                        <ul class="certi">
+                            <li><span>Java Programming: Solving Problems with
+                                Software (COURSERA)</span><br><a href="https://coursera.org/share/769f020fc3a2ae0572c38c6e7104ef5f"target="_blank"><i class="fa-solid fa-link"></i></a></li>
+                            <li><span>Programming Foundations with JavaScript, HTML
+                                and CSS (COURSERA)</span><br> <a href="https://coursera.org/share/928420cd0fa22cb3389f1dc02efe97fb"target="_blank"><i class="fa-solid fa-link"></i></a></li></a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.E. Computer Sciece from Chandigarh University</li>
+                            <li><span>2020</span><br>12th from Whitehall School</li>
+                            <li><span>2018</span><br>10th from Whitehall School</li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web Design</h2>
+                    <p>A web design service provides you with a customized website design that's perfect for your business or personal site.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI UX designers create the user interface for an app, website, or other interactive media. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>React Development</h2>
+                    <p>React is a front-end JavaScript library. It is used for the design and implementation of user interfaces.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+             <div class="work-list">
+                <div class="work">
+                    <img src="resturant.jpg" alt="">
+                    <div class="layer">
+                        <h3>Resturant Website</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, aliquid officia.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="to do.avif" alt="">
+                    <div class="layer">
+                        <h3>To-Do List App</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, aliquid officia.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="black jack.jpg" alt="">
+                    <div class="layer">
+                        <h3>Black-Jack Game</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, aliquid officia.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+   
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>ajayrawat0706@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8941084253</p>
+                    <div class="social-media">
+                     <a href="https://instagram.com/__ajay__rawat?igshid=ZDdkNTZiNTM="target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                     <a href="https://www.linkedin.com/in/ajay-rawat-78087a239"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                     <a href="https://github.com/AjayRawat0706"target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    
+                    </div>
+                    <a href="Ajay Rawat.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                  <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email"required>
+                    <textarea name="Message"  rows="10" placeholder="Enter Your Message "></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                  </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p></p>
+        </div>
+    </div>
+
+    <script>
+        var sidemenu=document.getElementById('sidemenu');
+const openmenu=()=>{
+    sidemenu.style.right="0";
+}
+const closemenu=()=>{
+   sidemenu.style.right="-200px";
+}
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxy6anu1pNVMNQfxrUONeY96E7s8dzDzisFrrf9PEY202v2PijwTV8e8OkNZsXMyKBq_Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+    
+</body>
+</html>
+
+<!-- ----------------1:37:00----------------- -->
